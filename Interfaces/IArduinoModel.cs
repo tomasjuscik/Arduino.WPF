@@ -1,8 +1,7 @@
-﻿using System;
-using System.Threading.Tasks;
-
-namespace Arduino.WPF.Interfaces
+﻿namespace Arduino.WPF.Interfaces
 {
+    using System;
+
     public interface IArduinoModel
     {
         void StartCommunication();

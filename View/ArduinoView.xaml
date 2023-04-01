@@ -10,7 +10,7 @@
 
     <Grid>
         <Label Content="Temperature : " HorizontalAlignment="Left" Margin="117,100,0,0" VerticalAlignment="Top" Width="83"/>
-        <Label Content="{Binding Temperature}" HorizontalAlignment="Left" Margin="175,100,0,0" VerticalAlignment="Top" Width="83"/>
+        <Label Content="{Binding Temperature}" HorizontalAlignment="Left" Margin="200,100,0,0" VerticalAlignment="Top" Width="83"/>
         <Button Content="Start Communication" Command="{Binding StartCommand}" HorizontalAlignment="Left" Margin="117,171,0,0" VerticalAlignment="Top"/>
         <Button Content="Stop Communication" Command="{Binding StopCommand}" HorizontalAlignment="Left" Margin="259,171,0,0" VerticalAlignment="Top"/>
         <Label Content="Status : " HorizontalAlignment="Left" Margin="396,171,0,0" VerticalAlignment="Top"/>

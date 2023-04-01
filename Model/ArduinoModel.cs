@@ -6,7 +6,7 @@
 
     public class ArduinoModel : IArduinoModel
     {
-        private readonly SerialPort ArduinoPort = null;
+        private readonly SerialPort ArduinoPort;
         public event EventHandler? dataChanged;
 
         public ArduinoModel()

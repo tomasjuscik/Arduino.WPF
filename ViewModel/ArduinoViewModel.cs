@@ -28,6 +28,7 @@
             set
             {
                 _temperature = value;
+                this.OnPropertyChanged(nameof(Temperature));
             }
         }
 
@@ -41,6 +42,7 @@
             set
             {
                 _status = value;
+                this.OnPropertyChanged(nameof(Status));
             }
         }
 
@@ -91,8 +93,6 @@
         {
             Temperature = this.arduinoModel.Response;
             Status = this.arduinoModel.Status;
-            this.OnPropertyChanged(nameof(Temperature));
-            this.OnPropertyChanged(nameof(Status));
         }
     }
 
